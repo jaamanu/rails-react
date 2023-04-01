@@ -1,52 +1,103 @@
+<a name="readme-top"></a>
+
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
+
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠️ Built With](#built-with)
+  - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
-- [⭐ Show your support](#support)
+- [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 react rails webapack app<a name="about-project"></a>
-  react and rails greeting app
-# 📖 Description <a name="Description-Note"></a>
-> BIKE BOUTIQUE is a web application for managing motorcycles renting. The application is built using React for the front-end, Rails for the back-end, and PostgreSQL as the database.
+<!-- PROJECT DESCRIPTION -->
 
-Booking application
+# 📖 [Hello Rails React App] <a name="about-project"></a>
 
-## Project presentation link
 
-[Presentation of APP]
-- [FrontEndrepo](https://github.com/jaamanu/user_interface)
-- [BackENDrepo](https://github.com/eerapheal/Full_stack_project)
 
-# Live Demo Application link (coming soon)
+**[Hello Rails React App]** is a full stack web app with which a user can add basic budget items and monitor their spendings, the application allows users to enter items and amounts to be spent on every item
 
-## 🛠️ Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with">Ruby on Rails</a>
 
-- Ruby on Rails
-- Postgresql
-- Capybera
-- React
-- Redux
-- Rspec
 
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Ruby on rails</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- Sign up new user
-- book appointment
+
+- **Authentication with devise**
+- **Nested routing**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo](not net available)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,36 +105,58 @@ Booking application
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-- A code editor
-- React installed
-- Redux installed
+- Ruby installed
+- npm installed
+- A terminal
+- A Web browser
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
 
 Clone this repository to your desired folder:
-https://github.com/jaamanu/user_interface.git
-```
- cd user_interface
-```
 
-
+```sh
+  cd my-folder
+  git clone https://github.com/RichardChileya/hello-rails-react.git
+  cd budget-app
+```
 ### Install
-install this project with:
-```
-  npm install
-  ```
 
-### Start 
-To start the application, run the following command
+Install this project with:
+
+
+
+```sh
+  bundle install
+  rails db:create
+  rails db:migrate
 ```
-npm run start
+
+
+### Usage
+
+To run the project, execute the following command:
+
+
+
+```sh
+  ./bin/dev
 ```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,14 +164,11 @@ npm run start
 
 ## 👥 Authors <a name="authors"></a>
 
-
 👤 **JAMES ASIBEY MANU**
 
 - GitHub: [@jaamanu](https://github.com/jaamanu)
 - Twitter: [@jamesasibeymanu](https://twitter.com/jamesasibeymanu)
-- LinkedIn: [jamesasibeymanu](https://linkedin.com/in/jamesasibeymanu)
-
-
+- LinkedIn: [jaamanu](https://www.linkedin.com/in/jaamanu/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,8 +176,9 @@ npm run start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Set up payment stytem**
-- **Delete Motorcyle**
+- **Nav bar**
+- **About section**
+- **Images and styling**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,37 +186,33 @@ npm run start
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-##### Contributions, issues, and feature requests are welcome!
-- Fork it
-- Create your feature branch (git checkout -b my-new-feature)
-- Commit your changes (git commit -am 'Add some feature')
-- Push to the branch (git push origin my-new-feature)
-- Create new Pull Request.
+Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jaamanu/user_interface/issues).
+Feel free to check the [issues page](https://github.com/RichardChileya/hello-rails-react/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## ⭐ Show your support <a name="support"></a>
+## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please give it a star
+If you like this project, do give it a star ⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Acknownlagement -->
+<!-- ACKNOWLEDGEMENTS -->
 
-## 🤝 My  Acknownlagement
-- Micorverse team.
-- My partners.
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+We would like to thank all reviewers who helped improve the quality of our codebase
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/RichardChileya/budget-app/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

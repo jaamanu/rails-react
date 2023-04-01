@@ -131,7 +131,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/RichardChileya/hello-rails-react.git
+  git clone https://github.com/jaamanu/rails-react.git
   cd budget-app
 ```
 ### Install

@@ -18,9 +18,6 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 react rails webapack app<a name="about-project"></a>
   react and rails greeting app
 # 📖 Description <a name="Description-Note"></a>
@@ -94,11 +91,13 @@ npm run start
 
 ## 👥 Authors <a name="authors"></a>
 
+
 👤 **JAMES ASIBEY MANU**
 
 - GitHub: [@jaamanu](https://github.com/jaamanu)
 - Twitter: [@jamesasibeymanu](https://twitter.com/jamesasibeymanu)
 - LinkedIn: [jamesasibeymanu](https://linkedin.com/in/jamesasibeymanu)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
